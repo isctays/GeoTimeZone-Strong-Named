@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
   <metadata>
-    <id>GeoTimeZone</id>
+    <id>GeoTimeZone.StrongNamed</id>
     <version>$version$</version>
-    <title>Geo Time Zone</title>
+    <title>Geo Time Zone Strong Named</title>
     <authors>$author$</authors>
     <description>$description$</description>
     <language>en-US</language>
     <licenseUrl>https://raw.githubusercontent.com/mj1856/GeoTimeZone/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/mj1856/GeoTimeZone</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>timezone time zone geolocation geo latitude longitude coordinates iana tzdb</tags>
+    <tags>timezone time zone geolocation geo latitude longitude coordinates iana tzdb strongnamed strong named</tags>
   </metadata>
 </package>

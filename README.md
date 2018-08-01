@@ -1,13 +1,18 @@
-GeoTimeZone  [![NuGet Version](https://img.shields.io/nuget/v/GeoTimeZone.svg?style=flat)](https://www.nuget.org/packages/GeoTimeZone/) 
+GeoTimeZone.StrongNamed  [![NuGet Version](https://img.shields.io/nuget/v/GeoTimeZone.StrongNamed.svg?style=flat)](https://www.nuget.org/packages/GeoTimeZone.StrongNamed/) 
 ===========
 
-Provides an IANA time zone identifier from latitude and longitude coordinates.
+This is a fork of the original project GeoTimeZone: [4]
+
+Provides a StrongNamed Package Version of the original GeoTimeZone which provides an IANA time zone identifier from latitude and longitude coordinates.
 
 ## Nuget Installation
 
 ```powershell
-PM> Install-Package GeoTimeZone
+PM> Install-Package GeoTimeZone.StrongNamed
 ```
+
+From the Original Readme.md File
+
 
 ## Supported Environments
 
@@ -34,3 +39,4 @@ This library is provided free of charge, under the terms of the [MIT license][3]
 [1]: https://github.com/evansiroky/timezone-boundary-builder
 [2]: https://www.openstreetmap.org/
 [3]: https://raw.githubusercontent.com/mj1856/GeoTimeZone/master/LICENSE
+[4]: https://github.com/mj1856/GeoTimeZone

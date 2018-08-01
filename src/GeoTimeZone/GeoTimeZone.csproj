@@ -1,16 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>Provides an IANA time zone identifier from latitude and longitude coordinates.</Description>
-    <Authors>Matt Johnson;Simon Bartlett</Authors>
+    <Description>GeoTimeZone StrongNamed Nuget Package
+Provides an IANA time zone identifier from latitude and longitude coordinates.</Description>
+    <Authors>Matt Johnson;Simon Bartlett;Isaac Tays</Authors>
     <TargetFrameworks>netstandard2.0;netstandard1.0;net45;net40</TargetFrameworks>
-    <PackageId>GeoTimeZone</PackageId>
-    <PackageTags>timezone;time;zone;geolocation;geo;latitude;longitude;coordinates;iana;tzdb</PackageTags>
+    <PackageId>GeoTimeZone.StrongNamed</PackageId>
+    <PackageTags>timezone;time;zone;geolocation;geo;latitude;longitude;coordinates;iana;tzdb;strongnamed</PackageTags>
     <PackageProjectUrl>https://github.com/mj1856/GeoTimeZone</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/mj1856/GeoTimeZone/master/LICENSE</PackageLicenseUrl>
     <IncludeSource>True</IncludeSource>
     <IncludeSymbols>True</IncludeSymbols>
     <Version>3.2.0</Version>
+    <PackageReleaseNotes>This package is a fork of the GeoTimeZone Package, to build a strong named version.
+</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/isctays/GeoTimeZone-Strong-Named</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>GeoTimeZoneSignCert.snk</AssemblyOriginatorKeyFile>
+    <Product>GeoTimeZone StrongNamed</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
