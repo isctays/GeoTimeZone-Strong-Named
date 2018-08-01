@@ -1,7 +1,7 @@
 GeoTimeZone.StrongNamed  [![NuGet Version](https://img.shields.io/nuget/v/GeoTimeZone.StrongNamed.svg?style=flat)](https://www.nuget.org/packages/GeoTimeZone.StrongNamed/) 
 ===========
 
-This is a fork of the original project GeoTimeZone: [4]
+This is a fork of the original project [GeoTimeZone][4]
 
 Provides a StrongNamed Package Version of the original GeoTimeZone which provides an IANA time zone identifier from latitude and longitude coordinates.
 
@@ -11,7 +11,7 @@ Provides a StrongNamed Package Version of the original GeoTimeZone which provide
 PM> Install-Package GeoTimeZone.StrongNamed
 ```
 
-From the Original Readme.md File
+# From the Original Readme.md File
 
 
 ## Supported Environments
